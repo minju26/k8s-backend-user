@@ -41,9 +41,9 @@ pipeline {
     }
 
     tools {
-        gradle 'Gradle 8.14.2'
-        jdk 'OpenJDK 17'
-        dockerTool 'Docker'
+        gradle "Gradle 8.14.2"
+        jdk "OpenJDK 17"
+        dockerTool "Docker"
     }
 
     stages {
